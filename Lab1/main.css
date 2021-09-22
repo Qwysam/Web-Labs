@@ -36,3 +36,13 @@
 .LinkText{
     color: #4b52b3;
 }
+.TextAndImage{
+    padding-bottom: 170px;
+    padding-left: 19px;
+}
+.Author{
+    text-align: center;
+    vertical-align: text-top;
+    padding-bottom: 17px;
+    color: #868686;
+}
