@@ -1,0 +1,205 @@
+﻿body{
+	margin: 0;
+}
+#container{
+	width: 780px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	background: url("images/header_background.jpg");
+	margin-bottom: 12px;
+}
+#logo{
+	float: left;
+	background: transparent;
+	padding-left: 19px;
+	padding-bottom: 0px;
+}
+#basketballs{
+	background: url("images/basketballs.png") no-repeat;
+	height: 100px;
+	width: 113px;
+	float: right;
+	padding-bottom: 0px;
+}
+#nav_bar{
+	width: 720px;
+	height: 14px;
+	position: absolute;
+	top: -4px;
+	left:  330px;
+	height: 14px;
+	padding-top: 96px;
+}
+button.navbar_button{
+	white-space: nowrap;
+	text-align: center;
+	font-family: Myriad Pro;
+	font-weight: bold;
+	font-size: 8pt;
+	background: black;
+	color: white;
+	border: 4px;
+	border-color: black;
+	padding-right: 3px;
+	width: 10%;
+}
+#empty_button{
+	position: absolute;
+	text-align: center;
+	font-family: Myriad Pro;
+	font-weight: bold;
+	font-size: 8pt;
+	background: black;
+	color: white;
+	border: 4px;
+	margin-left: 3px;
+	border-color: black;
+	width: 249px;
+}
+#content_area{
+	background: url("images/content_background.jpg");
+	width: 100%;
+	height: auto;
+}
+#left_column{
+	float: left;
+	width: 175px;
+	height: 486px;
+	margin: 0;
+}
+#rating_link{
+	padding-top:41px ;
+	padding-left: 25px;
+	display: inline-block;
+	font-size: 18pt;
+	padding-bottom: 7px;
+}
+#left_column p{
+	line-height: 5px;
+	padding-left: 16px;
+}
+#left_column img{
+	margin-bottom: 22px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+#detailed_rating_link{
+	height: 13px;
+	width: 167px;
+	text-align: right;
+	background: black;
+	color: white;
+	padding-left: 23px;
+}
+#fan_club_link{
+	display: inline-block;
+	padding-top: 7px;
+	padding-left: 46px;
+	font-size: 14pt;
+}
+#right_column{
+	float: right;
+	width: 182px;
+	height: 431px;
+	margin: 0;
+	margin-top: 47px;
+	padding-top: 13px;
+	border: 2px solid #286086;
+	text-align: center;
+	display: inline-block;
+}
+.company_name{
+	font-size: 8pt;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-bottom: -8px;
+}
+#samsung_text{
+	font-size: 8pt;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-bottom: -2px;
+}
+#right_column img{
+	padding-top: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	margin-bottom: -10px;
+}
+.right_column_link{
+	font-size: 8pt;
+	text-align: center;
+	margin-top: 0px;
+}
+#sponsors_link{
+}
+#middle_content{
+
+}
+#middle_content p{
+	line-height: 12px;
+	font-size: 8pt;
+	padding-bottom:5px ;
+	margin: 0;
+}
+#more_link{
+	margin-top: 0px;
+	margin-bottom: 44px;
+	text-align: right;
+	display: inline-block;
+	padding-left: 183px;
+}
+#latest_news_link{
+	display: inline-block;
+	padding-top: 41px;
+	font-size: 18pt;
+}
+#player_image{
+	padding: 48px 11px 11px 8px;
+	width: 170px;
+	height: 245px;
+	float: right;
+}
+#games_container{
+	border: 1px solid #ff0000;
+	width: 408px;
+	height: 90px;
+	background: white;
+	display: inline-block;
+}
+#games_today{
+	text-align: center;
+	width: 49%;
+	height: 100%;
+	float:left ;
+}
+#games_tomorrow{
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+#games_container .content{
+	color: #5e88a4;
+	line-height: 8px;
+	font-size: 8pt;
+}
+#games_container .games_font{
+	color: #f76060;
+	font-size: 10pt;
+	padding-bottom: 10px;
+}
+hr.vertical {
+  border: 0;
+  margin: 0;
+  margin-top: 4px;
+  border-left: 1px solid #f92e2e;
+  height: 81px;
+  float: left;
+}
