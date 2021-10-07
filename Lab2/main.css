@@ -12,6 +12,13 @@
 	height: 100px;
 	background: url("images/header_background.jpg");
 	margin-bottom: 12px;
+	color: white;
+}
+#header b{
+	font-size: 20pt;
+	position: absolute;
+	left: 583px;
+	top: 15px;
 }
 #logo{
 	float: left;
@@ -69,7 +76,7 @@ button.navbar_button{
 #left_column{
 	float: left;
 	width: 175px;
-	height: 486px;
+	height: 460px;
 	margin: 0;
 }
 #rating_link{
@@ -105,7 +112,7 @@ button.navbar_button{
 #right_column{
 	float: right;
 	width: 182px;
-	height: 431px;
+	height: 395px;
 	margin: 0;
 	margin-top: 47px;
 	padding-top: 13px;
@@ -115,13 +122,13 @@ button.navbar_button{
 }
 .company_name{
 	font-size: 8pt;
-	padding-top: 25px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	margin-bottom: -8px;
 }
 #samsung_text{
 	font-size: 8pt;
-	padding-top: 25px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	margin-bottom: -2px;
 }
@@ -166,6 +173,7 @@ button.navbar_button{
 	height: 245px;
 	float: right;
 }
+
 #games_container{
 	border: 1px solid #ff0000;
 	width: 408px;
@@ -202,4 +210,24 @@ hr.vertical {
   border-left: 1px solid #f92e2e;
   height: 81px;
   float: left;
+}
+#footer{
+	width: 780px;
+	height: 14px;
+	margin: 0px;
+}
+#copyright{
+	width: 586px;
+	float: left;
+	background: black;
+	text-align: center;
+}
+#copyright a{
+	color: white;
+}
+#deisgned_for{
+	width: 180px;
+	float: right;
+	text-align: right;
+	padding-right: 12px;
 }
