@@ -10,27 +10,14 @@
 #header{
 	width: 100%;
 	height: 100px;
-	background: url("images/header_background.jpg");
+	background: url("../images/header_background2.jpg");
 	margin-bottom: 12px;
 	color: white;
-}
-#header b{
-	font-size: 20pt;
-	position: absolute;
-	left: 583px;
-	top: 15px;
 }
 #logo{
 	float: left;
 	background: transparent;
 	padding-left: 19px;
-	padding-bottom: 0px;
-}
-#basketballs{
-	background: url("images/basketballs.png") no-repeat;
-	height: 100px;
-	width: 113px;
-	float: right;
 	padding-bottom: 0px;
 }
 #nav_bar{
@@ -41,6 +28,10 @@
 	left:  330px;
 	height: 14px;
 	padding-top: 96px;
+}
+#nav_bar a{
+	color: white;
+	text-decoration: none;
 }
 button.navbar_button{
 	white-space: nowrap;
@@ -69,7 +60,7 @@ button.navbar_button{
 	width: 249px;
 }
 #content_area{
-	background: url("images/content_background.jpg");
+	background: url("../images/content_background2.jpg") no-repeat;
 	width: 100%;
 	height: auto;
 }
@@ -98,10 +89,11 @@ button.navbar_button{
 #detailed_rating_link{
 	height: 13px;
 	width: 167px;
+	font-size: 9pt;
 	text-align: right;
 	background: black;
 	color: white;
-	padding-left: 23px;
+	padding-left: 60px;
 }
 #fan_club_link{
 	display: inline-block;
@@ -112,7 +104,7 @@ button.navbar_button{
 #right_column{
 	float: right;
 	width: 182px;
-	height: 395px;
+	height: 413px;
 	margin: 0;
 	margin-top: 47px;
 	padding-top: 13px;
@@ -147,7 +139,17 @@ button.navbar_button{
 #sponsors_link{
 }
 #middle_content{
-
+	width: 410px;
+	margin-left: 175px;
+}
+#news_container{
+		padding-left: 4px;
+		border-left: 3px solid #286086;
+		border-bottom:3px solid #286086;
+		height: 377px;
+}
+#middle_content .link{
+	font-size: 10pt;
 }
 #middle_content p{
 	line-height: 12px;
@@ -156,8 +158,8 @@ button.navbar_button{
 	margin: 0;
 }
 #more_link{
-	margin-top: 0px;
-	margin-bottom: 44px;
+	margin-top: -10px;
+	margin-bottom: 20px;
 	text-align: right;
 	display: inline-block;
 	padding-left: 183px;
@@ -166,15 +168,18 @@ button.navbar_button{
 	display: inline-block;
 	padding-top: 41px;
 	font-size: 18pt;
+	padding-bottom: 15px;
+	padding-left: 26px;
 }
 #player_image{
-	padding: 48px 11px 11px 8px;
+	padding: 48px 0px 25px 8px;
 	width: 170px;
 	height: 245px;
 	float: right;
 }
 
 #games_container{
+	margin-top: 5px;
 	border: 1px solid #ff0000;
 	width: 408px;
 	height: 90px;
@@ -224,10 +229,12 @@ hr.vertical {
 }
 #copyright a{
 	color: white;
+	font-size: 10pt;
 }
 #deisgned_for{
 	width: 180px;
 	float: right;
 	text-align: right;
 	padding-right: 12px;
+	font-size: 9pt;
 }
