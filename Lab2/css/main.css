@@ -1,5 +1,6 @@
 ﻿body{
 	margin: 0;
+	background: white;
 }
 #container{
 	width: 780px;
@@ -7,15 +8,13 @@
 	margin: 0 auto;
 	background-color: #ffffff;
 }
-#header{
+header{
 	width: 100%;
 	height: 100px;
 	background: url("../images/header_background2.jpg");
-	margin-bottom: 12px;
 	color: white;
 }
 #logo{
-	float: left;
 	background: transparent;
 	padding-left: 19px;
 	padding-bottom: 0px;
@@ -23,11 +22,8 @@
 #nav_bar{
 	width: 720px;
 	height: 14px;
-	position: absolute;
-	top: -4px;
-	left:  330px;
-	height: 14px;
-	padding-top: 96px;
+	position: relative;
+	top: -10px;
 }
 #nav_bar a{
 	color: white;
@@ -56,13 +52,15 @@ button.navbar_button{
 	color: white;
 	border: 4px;
 	margin-left: 3px;
+	margin-top: 3px;
 	border-color: black;
 	width: 249px;
 }
-#content_area{
+main{
 	background: url("../images/content_background2.jpg") no-repeat;
 	width: 100%;
 	height: auto;
+	position: relative;
 }
 #left_column{
 	float: left;
@@ -71,7 +69,7 @@ button.navbar_button{
 	margin: 0;
 }
 #rating_link{
-	padding-top:41px ;
+	padding-top:25px ;
 	padding-left: 25px;
 	display: inline-block;
 	font-size: 18pt;
@@ -81,7 +79,7 @@ button.navbar_button{
 	line-height: 5px;
 	padding-left: 16px;
 }
-#left_column img{
+#fan_image{
 	margin-bottom: 22px;
 	padding-left: 10px;
 	padding-top: 5px;
@@ -97,16 +95,16 @@ button.navbar_button{
 }
 #fan_club_link{
 	display: inline-block;
-	padding-top: 7px;
+	padding-top: 40px;
 	padding-left: 46px;
 	font-size: 14pt;
 }
 #right_column{
 	float: right;
 	width: 182px;
-	height: 413px;
+	height: 428px;
 	margin: 0;
-	margin-top: 47px;
+	margin-top: 32px;
 	padding-top: 13px;
 	border: 2px solid #286086;
 	text-align: center;
@@ -159,20 +157,20 @@ button.navbar_button{
 }
 #more_link{
 	margin-top: -10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-align: right;
 	display: inline-block;
 	padding-left: 183px;
 }
 #latest_news_link{
 	display: inline-block;
-	padding-top: 41px;
+	padding-top: 25px;
 	font-size: 18pt;
 	padding-bottom: 15px;
 	padding-left: 26px;
 }
 #player_image{
-	padding: 48px 0px 25px 8px;
+	padding: 32px 0px 25px 8px;
 	width: 170px;
 	height: 245px;
 	float: right;
@@ -216,7 +214,7 @@ hr.vertical {
   height: 81px;
   float: left;
 }
-#footer{
+footer{
 	width: 780px;
 	height: 14px;
 	margin: 0px;
@@ -237,4 +235,10 @@ hr.vertical {
 	text-align: right;
 	padding-right: 12px;
 	font-size: 9pt;
+}
+#line{
+	float: left;
+	padding: 68px 0px 0px 8px;
+	height: 180px;
+	margin-bottom: 0px;
 }

@@ -7,10 +7,13 @@
 <body>
     <div id = "container">
         <!-- HEADER -->
-        <div id = "header">
+        <header>
             <div id = "logo">
-                <a href=""><img alt="MySite" src="images/logo.png"width="118" height="100"></a>
+                <a href=""><img alt="MySite" src="images/logo.png"></a>
             </div>
+        </header>
+        <!-- CONTENT AREA -->
+        <main>
             <div id = "nav_bar">
                 <button class="navbar_button"><a href="">Home Page</a></button>
                 <button class="navbar_button"><a href="">News</a></button>
@@ -21,11 +24,9 @@
                 <button class="navbar_button"><a href="">Tickets</a></button>
                 <button id="empty_button">&nbsp;</button>
             </div>
-        </div>
-        <!-- CONTENT AREA -->
-        <div id="content_area">
             <div id="left_column">
                 <a href="" id="rating_link">Rating</a>
+                <img src="images/line.png" id="line">
                 <p>Chicago Bulls</p>
                 <p>Minessota Timberwolfs</p>
                 <p>Los Angeles Lakers</p>
@@ -37,7 +38,7 @@
                 <p>Seattle Supersonics</p>
                 <a href="" id="detailed_rating_link">:: view detailed rating</a>
                 <a href="" id="fan_club_link">Fan's Club</a>
-                <img src="images/crowd.jpg" alt="Crowd of fans">
+                <img src="images/crowd.jpg" alt="Crowd of fans" id="fan_image">
             </div>
             <div id="right_column">
                 <a href=""id="sponsors_link">Sponsors</a>
@@ -84,14 +85,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
         <!-- FOOTER -->
-        <div id="footer">
+        <footer>
             <div id="copyright">
                 <a href="">::Copyright 2002 - All Rights Reserved © Lithuanian Basketball Association::</a>
             </div>
             <div id="deisgned_for">Designed for labworks</div>
-        </div>
+        </footer>
     </div>
 </body>
 </html> 
